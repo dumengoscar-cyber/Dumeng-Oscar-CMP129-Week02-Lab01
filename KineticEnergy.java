@@ -1,4 +1,4 @@
-// name: 
+// name: oscar dumeng
 // course: cmp129
 // lab: week 2 Lab 1
 // date: 9/15/2026
