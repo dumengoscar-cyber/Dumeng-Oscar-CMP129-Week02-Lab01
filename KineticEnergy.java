@@ -1,4 +1,4 @@
-// name: oscar dumeng
+// name: 
 // course: cmp129
 // lab: week 2 Lab 1
 // date: 9/15/2026
@@ -17,11 +17,13 @@ public class KineticEnergy {
         System.out.println("enter objects velocity");
         double velocity = input.nextDouble();
 
-         double kineticEnergy = 0.5 * mass * Math.pow(velocity, 2);
-
+         double kineticEnergy = kineticEnergy(mass, velocity);
          //System.out.println("the kinetic energy is " +  kineticEnergy);
          System.out.println("the kinetic energy is");
          System.out.printf("%.2f", kineticEnergy);
 
+}
+public static double kineticEnergy(double mass, double velocity) {
+return 0.5 * mass * Math.pow(velocity, 2);    
 }
 }
