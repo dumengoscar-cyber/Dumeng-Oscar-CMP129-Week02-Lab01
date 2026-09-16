@@ -10,11 +10,12 @@ public class CelsiusTable {
         System.out.println("fahrenheit      celsius");
 
         for(int fahrenheit = 0; fahrenheit <= 20; fahrenheit++) {
+           //calls the conversion and displays it
             double celsiusTemp = celsius(fahrenheit);
             System.out.printf("%d           %.2f%n" , fahrenheit, celsiusTemp);
         }
         }
-
+//convert f to c value
         public static double celsius(double fahrenheit) {
             return (5.0 / 9.0) * (fahrenheit - 32);
         }
